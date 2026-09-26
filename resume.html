@@ -1,11 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title>Personal webiste</title>
-    </head>
+  <head>
+    <title>Personal webiste</title>
+  </head>
   <body>
-    <nav></nav>
-    Hello World! This is my website.
-    <footer>© 2026 Personal website | All Rights Reserved</footer>
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html">Veronika Lebed</a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1 class="page-title">Resume</h1>
+      <div class="resume">
+        <section class="section">
+          <div class="entry">
+            <h2 class="section-title">Education</h2>
+            <h3 class="entry-title">
+              California Polytechnic State University San Luis Obispo
+            </h3>
+            <p class="entry-info">Bachelor of Science, Computer Science</p>
+          </div>
+        </section>
+        <section class="section">
+          <div class="entry">
+            <h2 class="section-title">Experience</h2>
+          </div>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Skills</h2>
+          <div class="entry">
+            <h3 class="entry-title"></h3>
+            <p class="entry-info"></p>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>React Native</li>
+              <li>HTML/CSS</li>
+              <li>MongoDB</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Projects</h2>
+          <div class="entry">
+            <h3 class="entry-title">Nest - Codebox Hacks (September 2026)</h3>
+            <p class="entry-info">React Native, Expo, TypeScript, Supabase</p>
+            <ul class="entry-description">
+              <li>
+                Implemented CRUD functionality for a shared grocery system,
+                which allows household members to create, delete, and update
+                grocery items while persisting shared list state across users.
+              </li>
+              <li>
+                Built expense splitting functionality for shared costs and
+                calculation of each roommate’s individual balance.
+              </li>
+              <li>
+                Implemented grocery expense allocation from uploaded grocery
+                lists, calculating per-user costs and determining outstanding
+                balances between roommates.
+              </li>
+            </ul>
+            <h3 class="entry-title">Mustang Pantry (Summer-Fall 2026)</h3>
+            <p class="entry-info">
+              JavaScript, HTML, CSS, Supabase, PostgreSQL, SQL
+            </p>
+            <ul class="entry-description">
+              <li>
+                Developed a web application for viewing and updating Cal Poly
+                food pantry daily stock.
+              </li>
+              <li>
+                Integrated Supabase email authentication to restrict access to
+                Cal Poly users only.
+              </li>
+              <li>
+                Developed role-based functionality so that food pantry staff can
+                update stock and upload photos while students can view available
+                items and quantities.
+              </li>
+              <li>
+                Designed and queried a PostgreSQL database to store inventory
+                data, user roles, quantities, and stock updates.
+              </li>
+            </ul>
+            <h3 class="entry-title">
+              Bloom - PolyPrompt Hackathon (February 2026)
+            </h3>
+            <p class="entry-info">
+              Next.js, React, TypeScript, Supabase, PostgreSQL
+            </p>
+            <ul class="entry-description">
+              <li>
+                Collaborated on developing an AI-powered application that helps
+                students identify gaps in their understanding.
+              </li>
+              <li>
+                Implemented functionality for users to upload lecture materials
+                and integrated uploaded materials into the learning flow.
+              </li>
+              <li>Refined the UI/UX for the main AI teaching interface.</li>
+              <li>
+                Contributed to the RAG system by retrieving relevant sections
+                from uploaded lecture materials to provide context for
+                AI-generated responses.
+              </li>
+            </ul>
+            <h3 class="entry-title">
+              RecycleMe -- Learn It Global Hackathon (Winter 2024)
+            </h3>
+            <ul class="entry-info">
+              <li>
+                Developed an interactive web application that teaches proper
+                recycling.
+              </li>
+              <li>
+                Implemented quizzes, educational content, a recycling-related
+                game, and a map with recycling centers.
+              </li>
+              <li>Honorable Mention, Learn It Global Hackathon.</li>
+            </ul>
+            <p class="entry-description">...</p>
+          </div>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Coursework</h2>
+          <div class="entry">
+            <h3 class="entry-title"></h3>
+
+            <p class="entry-info"></p>
+            <ul class="course-list">
+              <li>Data structures</li>
+              <li>Software engineering</li>
+              <li>Introduction to Computer Security</li>
+              <li>Programming languages</li>
+              <li>Systems Programming</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      © 2026 Personal website | All Rights Reserved
+    </footer>
   </body>
 </html>
